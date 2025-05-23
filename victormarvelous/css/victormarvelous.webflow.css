@@ -21,7 +21,8 @@ body {
 
 .div-block {
   -webkit-text-fill-color: inherit;
-  background-image: url('../images/Asset-1.jpg');
+  /* Remove or comment out the default background-image here */
+  /* background-image: url('../images/Asset-1.jpg'); */
   background-position: 0 0;
   background-size: cover;
   background-clip: border-box;
@@ -1523,3 +1524,37 @@ body {
   font-style: normal;
   font-display: swap;
 }
+
+/* Add new classes for each project block */
+.project-birdsong {
+  background-image: url('../images/1.1b.png') !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+.project-orca {
+  background-image: url('../images/2.1o.png') !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+/* Add classes for other projects as needed */
+/*
+.project-osmosis {
+  background-image: url('path/to/osmosis/image.jpg') !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+.project-creativecommons {
+  background-image: url('path/to/creativecommons/image.jpg') !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+.project-portlanddmv {
+  background-image: url('path/to/portlanddmv/image.jpg') !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+*/
